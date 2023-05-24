@@ -196,9 +196,9 @@ aside span {
     border-right: none;
     padding: 32px 12px;
     background-image: auto 100%;
-    /*background-position: top right;
+    background-position: top right;
     background-repeat: no-repeat;
-    background-size: auto 100%;*/
+    background-size: auto 100%;
   }
   nav {
     overflow-y: visible;
