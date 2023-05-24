@@ -44,7 +44,7 @@ body {
 }
 
 nav {
-  background-color: #540375;
+  background-color: #a459d1;
   padding: 64px;
   grid-area: timeline;
 
@@ -58,6 +58,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   gap: 32px;
+  color: #2c2c31;
 }
 
 .apresentacao__links__subtitulo {
@@ -77,7 +78,8 @@ nav {
   padding: auto;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  background-color: #10a196;
+  background-color: #2c2c31;
+  color: #bebebf;
 }
 .apresentacao__links__navegacao:hover {
   background-color: #ff7000;
@@ -99,7 +101,7 @@ nav {
 
 .memory h1 {
   font-size: 2rem;
-  color: #eaeaea;
+  color: #121215;
 }
 
 .memory img {
@@ -122,14 +124,14 @@ nav {
 }
 
 .memory p {
-  font-size: 1.2rem;
-  color: #bebebf;
+  font-size: 1.5rem;
+  color: #121215;
   line-height: 28px;
 }
 
 aside {
   grid-area: profile;
-
+  color: #2c2c31;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,7 +141,7 @@ aside {
   border-right: 1px solid;
   border-image: linear-gradient(#727275, #2c2c31) 1;
 
-  background-image: url("./assets/background.svg");
+  background-image: url("./assets/logodora.svg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -149,8 +151,8 @@ aside * {
   animation: entering 0.7s ease-in-out;
 }
 aside img:nth-child(1) {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 
   border: 8px solid transparent;
@@ -175,7 +177,7 @@ aside p {
 
 aside span {
   font-size: 0.75rem;
-  color: #9e9ea0;
+  color: #2c2c31;
 }
 
 @media (max-width: 768px) {
@@ -193,6 +195,10 @@ aside span {
   aside {
     border-right: none;
     padding: 32px 12px;
+    background-image: auto 100%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
   }
   nav {
     overflow-y: visible;
