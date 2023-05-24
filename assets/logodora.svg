@@ -3,9 +3,9 @@
 <g opacity="0.6" filter="url(#filter0_b_0_1)">
 <g clip-path="url(#clip0_0_1)">
 <rect width="652" height="567" fill="white"/>
-<rect x="30" y="14" width="254" height="250" rx="99" fill="url(#pattern0)"/>
-<rect x="30" y="334" width="186" height="220" rx="62" fill="url(#pattern1)"/>
-<rect x="420" y="185" width="232" height="220" rx="98" fill="url(#pattern2)"/>
+<rect x="85" y="314" width="215" height="218" rx="99" fill="url(#pattern0)"/>
+<rect x="85" width="181" height="213" rx="62" fill="url(#pattern1)"/>
+<rect x="462" y="187" width="177" height="174" rx="87" fill="url(#pattern2)"/>
 </g>
 <rect x="0.5" y="0.5" width="651" height="566" stroke="black"/>
 <rect x="0.5" y="0.5" width="651" height="566" stroke="black" stroke-opacity="0.2"/>
@@ -18,13 +18,13 @@
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_0_1" result="shape"/>
 </filter>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_0_1" transform="matrix(0.003125 0 0 0.003175 0 -0.01435)"/>
+<use xlink:href="#image0_0_1" transform="matrix(0.00312949 0 0 0.00308642 -0.000717772 0)"/>
 </pattern>
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image1_0_1" transform="matrix(0.00566171 0 0 0.0042328 -0.127389 0.0238095)"/>
 </pattern>
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image2_0_1" transform="matrix(0.00438596 0 0 0.0046252 0 -0.0110845)"/>
+<use xlink:href="#image2_0_1" transform="matrix(0.00444819 0 0 0.00452489 -0.0070941 0)"/>
 </pattern>
 <clipPath id="clip0_0_1">
 <rect width="652" height="567" fill="white"/>
